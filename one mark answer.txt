@@ -1,0 +1,147 @@
+1. What keyword is used by an interface to inherit from multiple interfaces?
+   - `extends`
+
+2. The constructor of which class cannot be used to create instances of the given class?
+   - `abstract`
+
+3. If a class contains one or more abstract methods, it is an what class?
+   - `abstract`
+
+4. A concrete (non-abstract) class cannot have what methods?
+   - `abstract`
+
+5. What keyword is used in a class definition to inherit multiple interface types?
+   - `implements`
+
+6. Once the control enters the try block within a method, it cannot leave the method without entering the what block?
+   - `catch`
+
+7. What statement in Java is used within methods to throw exceptions?
+   - `throw`
+
+8. The keyword what is used in a method header to indicate the list of possible checked exceptions which may be thrown from the method?
+   - `throws`
+
+9. The super-most class whose instances are valid in a throw statement is?
+   - `Throwable`
+
+10. What are the super-classes for all the unchecked exceptions?
+    - `RuntimeException` and `Error`
+
+11. When the Boolean expression following the assert statement evaluates to false then what is thrown?
+    - `AssertionError`
+
+12. The access specifier for constructors of Enum types is always what?
+    - `private`
+
+13. The inner classes for a class Some class has an implicit object what which is a reference to the associated instance of Some Class?
+    - `this`
+
+14. Only what local variable in the local enclosing block can be used within local classes?
+    - `final`
+
+15. The static member classes are also known as what?
+    - `nested classes`
+
+16. Java.io.FileWriter is a direct sub-class of what?
+    - `Writer`
+
+17. The what class is used by the InputStreamReader to convert bytes read from the input stream to Unicode characters?
+    - `Charset`
+
+18. The what class is used by the OutputStreamWriter to convert Unicode characters written to it into bytes for writing to OutputStream?
+    - `Charset`
+
+19. The RandomAccessFile implements the what and the what interface?
+    - `DataInput` and `DataOutput`
+
+20. The class LineNumberReader inherits from what class?
+    - `BufferedReader`
+
+21. notifyAll() method is defined in class what?
+    - `Object`
+
+22. The call to Thread.sleep(2000) puts the invoking Thread into which state?
+    - `TIMED_WAITING`
+
+23. Assuming that a Thread th is alive, the call to join(2000) puts the Thread into what state?
+    - `WAITING`
+
+24. The call to a synchronized method on an instance whose lock is not currently with the calling thread puts the Thread into what state?
+    - `BLOCKED`
+
+25. Information about the column in a ResultSet is available from the instance of what?
+    - `ResultSetMetaData`
+
+26. The static method of what class is used to get an instance of java.sql.Connection?
+    - `DriverManager`
+
+27. The return type for the static method forName() which takes String as parameter in the java.lang.Class is what?
+    - `Class`
+
+28. There are Five types of JDBC drivers. (True/False).
+    - `False`
+
+29. What does JDBC stand for?
+    - `Java Database Connectivity`
+
+30. How many stages are used by Java programmers while using JDBC in their programs? Give Names.
+    - Three stages: `Connection`, `Statement`, and `ResultSet`
+
+31. How many statement objects can be created using a Connection?
+    - Multiple statement objects can be created.
+
+32. What is the role of java.sql.ResultSet interface in JDBC?
+    - It represents the result set of a database query.
+
+33. Which method is used to execute an SQL query in JDBC?
+    - `executeQuery()`
+
+34. What is a thread?
+    - A thread is a lightweight process that executes independently but shares resources with other threads within the same process.
+
+35. Which class is used to create a thread in Java?
+    - `Thread`
+
+36. How can synchronization be achieved in Java threads?
+    - By using the `synchronized` keyword or using locks such as `Lock` and `Semaphore`.
+
+37. What is the purpose of the wait() method in Java threads?
+    - It causes the current thread to wait until another thread invokes the `notify()` or `notifyAll()` method for the same object.
+
+38. Which method is used to start the execution of a thread?
+    - `start()`
+
+39. What is the maximum number of threads that can be created in a Java program?
+    - It depends on the system's resources and configurations.
+
+40. What is the purpose of the join() method in Java threads?
+    - It waits for a thread to die or completes its execution.
+
+41. What is the main advantage of multithreading in Java?
+    - It allows concurrent execution of multiple tasks, improving performance and responsiveness.
+
+42. What is the purpose of exception handling in Java?
+    - It allows the programmer to handle errors and abnormal conditions gracefully, preventing abrupt termination of the program.
+
+43. What is the role of the finally block in a try-catch-finally statement?
+    - It is used to execute code that should always run, whether an exception is thrown or not.
+
+44. Which exception will the following throw? (This question seems incomplete.)
+
+45. What is the output of the following Java program? (This question seems incomplete.)
+
+46. What is the purpose of the "super" keyword in Java?
+    - It is used to refer to the superclass of the current object or to invoke the superclass's constructor or methods.
+
+47. What is the purpose of the "this" keyword in Java?
+    - It is used to refer to the current object or to differentiate between instance variables and parameters.
+
+48. What is method overriding in Java?
+    - It is the process of defining a method in a subclass that has the same signature as a method in its superclass, thereby replacing the superclass's method implementation.
+
+49. What is the purpose of the "abstract" keyword in Java?
+    - It is used to declare abstract classes and methods, which are meant to be implemented by subclasses.
+
+50. Which keyword is used to implement an interface?
+    - `implements`
